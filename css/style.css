@@ -67,8 +67,9 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 600px;
-  height: 400px;
+  /* width: 600px;
+  height: 400px; */
+  padding: 50px;
   border-radius: 20px;
   background-color: #fff;
 
@@ -81,7 +82,13 @@ body {
   position: absolute;
   right: 10px;
   top: 10px;
+  border-style: none;
   cursor: pointer;
+  background-color: #fff;
+}
+
+.modal-txt {
+  line-height: 20px;
 }
 
 .fadeOut {
